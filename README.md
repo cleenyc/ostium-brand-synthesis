@@ -33,6 +33,7 @@ In one sentence: **brand specs with citations and confidence levels, so downstre
 | [`docs/BRAND_PROVENANCE.md`](docs/BRAND_PROVENANCE.md) | How the Ostium spec was derived and what remains provisional |
 | [`docs/EVIDENCE_TRACEABILITY_MATRIX.md`](docs/EVIDENCE_TRACEABILITY_MATRIX.md) | Examples of final rules mapped back to evidence sources |
 | [`docs/PORTABILITY_TEST.md`](docs/PORTABILITY_TEST.md) | Generator-independent test of whether `brand.md` can guide an unsupported asset type |
+| [`docs/future-integrations/`](docs/future-integrations/) | Roadmap specs for visual/video portability and richer brand-fidelity evaluation |
 | [`scripts/brand_svg_asset.py`](scripts/brand_svg_asset.py) | Prototype deterministic SVG/PNG consumer of `brand.md` |
 
 ## The brand.md synthesis method
@@ -115,6 +116,27 @@ Available templates:
 - `position-overlay` — square product-position overlay on a market backdrop.
 - `briefing` — 4:5 earnings / market briefing card.
 
+## Roadmap / future iterations
+
+This v1 repo focuses on the source-backed `brand.md` workflow and a deterministic proof consumer. Future iterations should test whether the same spec can travel into richer visual and video generation systems without depending on hidden renderer assumptions.
+
+Planned directions:
+
+1. **Full visual/video portability**
+   - Use `brand.md` as a control layer for unsupported asset types, richer photographic compositions, and motion/video outputs.
+   - Explore a Higgsfield MCP integration or comparable visual/video generation tool.
+   - Validate that generated assets preserve Ostium's market specificity, product/data hierarchy, color semantics, restrained logo behavior, and claim discipline.
+   - Draft spec: [`docs/future-integrations/higgsfield-mcp-visual-video-portability.md`](docs/future-integrations/higgsfield-mcp-visual-video-portability.md).
+
+2. **Richer evaluator / blind taste test**
+   - Compare generated assets against real official Ostium assets through blind identification, rubric scoring, pairwise comparison, and generic-prompt baselines.
+   - Use evaluator failures to distinguish true `brand.md` gaps from prompt-builder issues, generation-tool limitations, or taste/production issues.
+   - Draft spec: [`docs/future-integrations/richer-evaluator-blind-taste-test.md`](docs/future-integrations/richer-evaluator-blind-taste-test.md).
+
+3. **Spec feedback loop**
+   - Treat failed portability tests as evidence for improving `brand.md` only when the failure reveals missing portable brand guidance.
+   - Keep renderer-specific workarounds, model quirks, and one-off prompt tricks out of the canonical brand spec.
+
 ## Repository layout
 
 ```text
@@ -133,7 +155,8 @@ Available templates:
 │   ├── EVIDENCE_TRACEABILITY_MATRIX.md
 │   ├── PORTABILITY_TEST.md
 │   ├── EXTERNAL_AGENT_RUNBOOK.md
-│   └── brand-md-workflow/
+│   ├── brand-md-workflow/
+│   └── future-integrations/
 ├── brands/
 │   └── ostium/
 │       ├── CASE_STUDY.md
