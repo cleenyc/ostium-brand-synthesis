@@ -1,0 +1,38 @@
+[
+  {
+    "file": "brands/ostium/resources/x/media/nasdaq-partnership.jpg",
+    "url": "https://pbs.twimg.com/media/HInCp9naYAATTQs.jpg",
+    "bytes": 209646,
+    "status": "ok"
+  },
+  {
+    "file": "brands/ostium/resources/x/media/largest-us100-long.jpg",
+    "url": "https://pbs.twimg.com/media/HItXFoabsAAd42Q.jpg",
+    "bytes": 143999,
+    "status": "ok"
+  },
+  {
+    "file": "brands/ostium/resources/x/media/largest-oil-trade.jpg",
+    "url": "https://pbs.twimg.com/media/HIx6AS_akAElksZ.jpg",
+    "bytes": 134875,
+    "status": "ok"
+  },
+  {
+    "file": "brands/ostium/resources/x/media/largest-copper-order.mp4",
+    "url": "https://video.twimg.com/amplify_video/2052855026021003264/vid/avc1/1280x720/E4FwCxSwaCHb-Jdm.mp4?tag=14",
+    "bytes": 832652,
+    "status": "ok"
+  },
+  {
+    "file": "brands/ostium/resources/x/media/liquidity-routing-global-markets.mp4",
+    "url": "https://video.twimg.com/amplify_video/2056731468312064001/vid/avc1/1080x1590/XXK01-9NfhsULOJj.mp4",
+    "bytes": 7079264,
+    "status": "ok"
+  },
+  {
+    "file": "brands/ostium/resources/x/media/no-funding-rates.jpg",
+    "url": "https://pbs.twimg.com/media/HHyonxYasAA6Uvr.jpg",
+    "bytes": 148646,
+    "status": "ok"
+  }
+]

@@ -1,0 +1,104 @@
+[
+  {
+    "path": "brands/ostium/resources/website/homepage.html",
+    "url": "https://www.ostium.com/",
+    "bytes": 90913,
+    "status": "ok"
+  },
+  {
+    "path": "brands/ostium/resources/docs/llms.txt",
+    "url": "https://docs.ostium.com/llms.txt",
+    "bytes": 11421,
+    "status": "ok"
+  },
+  {
+    "path": "brands/ostium/resources/docs/llms-full.txt",
+    "url": "https://docs.ostium.com/llms-full.txt",
+    "bytes": 220111,
+    "status": "ok"
+  },
+  {
+    "path": "brands/ostium/resources/docs/welcome.md",
+    "url": "https://docs.ostium.com/traders/welcome.md",
+    "bytes": 6438,
+    "status": "ok"
+  },
+  {
+    "path": "brands/ostium/resources/docs/how-ostium-works.md",
+    "url": "https://docs.ostium.com/protocol/how-ostium-works.md",
+    "bytes": 14553,
+    "status": "ok"
+  },
+  {
+    "path": "brands/ostium/resources/docs/markets.md",
+    "url": "https://docs.ostium.com/traders/reference/markets.md",
+    "bytes": 9375,
+    "status": "ok"
+  },
+  {
+    "path": "brands/ostium/resources/docs/fees.md",
+    "url": "https://docs.ostium.com/traders/reference/fees.md",
+    "bytes": 18392,
+    "status": "ok"
+  },
+  {
+    "path": "brands/ostium/resources/docs/connect-account.md",
+    "url": "https://docs.ostium.com/traders/getting-started/connect-account.md",
+    "bytes": 6899,
+    "status": "ok"
+  },
+  {
+    "path": "brands/ostium/resources/docs/builder-api-overview.md",
+    "url": "https://docs.ostium.com/developer/builder-api/overview.md",
+    "bytes": 540,
+    "status": "ok"
+  },
+  {
+    "path": "brands/ostium/resources/website/boxed-logo.svg",
+    "url": "https://cdn.prod.website-files.com/65737c87ec1260a2cdf2b38f/69f221fd7b2b6a933384c0cc_Boxed.svg",
+    "bytes": 5000,
+    "status": "ok"
+  },
+  {
+    "path": "brands/ostium/resources/website/favicon.png",
+    "url": "https://cdn.prod.website-files.com/65737c87ec1260a2cdf2b38f/6916451eafd00eda7b90dbd3_favicon.png",
+    "bytes": 900,
+    "status": "ok"
+  },
+  {
+    "path": "brands/ostium/resources/website/og-image.png",
+    "url": "https://cdn.prod.website-files.com/65737c87ec1260a2cdf2b38f/6983bc2d6fab1bb7fd006c06_OG%20Image.png",
+    "bytes": 3648384,
+    "status": "ok"
+  },
+  {
+    "path": "brands/ostium/resources/website/product-ui-frame.png",
+    "url": "https://cdn.prod.website-files.com/65737c87ec1260a2cdf2b38f/69f50dee90b479e93dbc95e2_Frame%202147227568.png",
+    "bytes": 2963887,
+    "status": "ok"
+  },
+  {
+    "path": "brands/ostium/resources/app/logo.png",
+    "url": "https://static.ostium.io/assets/logo.png",
+    "bytes": 16174,
+    "status": "ok"
+  },
+  {
+    "path": "brands/ostium/resources/app/header-logo-new.png",
+    "url": "https://static.ostium.io/assets/header-logo-new.png",
+    "bytes": 15912,
+    "status": "ok"
+  },
+  {
+    "path": "brands/ostium/resources/app/us500.svg",
+    "url": "https://app.ostium.com/assets/pairs/new/US500.svg",
+    "bytes": 6810,
+    "status": "ok"
+  },
+  {
+    "path": "brands/ostium/resources/website/homepage-css-extract.md",
+    "url": "derived from official homepage CSS",
+    "status": "ok",
+    "notes": "Selected token extract; full raw CSS not packaged in this pass."
+  }
+]

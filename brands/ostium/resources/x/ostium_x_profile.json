@@ -1,0 +1,19 @@
+{
+  "data":{
+    "verified":true,
+    "name":"Ostium",
+    "profile_image_url":"https://pbs.twimg.com/profile_images/1948722481780453376/GT7D7CNh_normal.jpg",
+    "description":"The gateway to global markets. Trade stocks, commodities, forex, and crypto onchain from the most liquid markets in the world.",
+    "public_metrics":{
+      "followers_count":62432,
+      "following_count":151,
+      "tweet_count":5196,
+      "listed_count":494,
+      "like_count":15232,
+      "media_count":1249
+    },
+    "created_at":"2022-05-04T01:58:21.000Z",
+    "username":"Ostium",
+    "id":"1521670489017446401"
+  }
+}

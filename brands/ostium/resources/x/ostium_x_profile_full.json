@@ -1,0 +1,37 @@
+{
+  "data":{
+    "protected":false,
+    "location":"arbitrum",
+    "verified_type":"business",
+    "public_metrics":{
+      "followers_count":62432,
+      "following_count":151,
+      "tweet_count":5196,
+      "listed_count":494,
+      "like_count":15232,
+      "media_count":1249
+    },
+    "profile_image_url":"https://pbs.twimg.com/profile_images/1948722481780453376/GT7D7CNh_normal.jpg",
+    "description":"The gateway to global markets. Trade stocks, commodities, forex, and crypto onchain from the most liquid markets in the world.",
+    "pinned_tweet_id":"2056388734283911442",
+    "id":"1521670489017446401",
+    "url":"https://t.co/qmCwswFZg7",
+    "verified":true,
+    "name":"Ostium",
+    "username":"Ostium",
+    "entities":{
+      "url":{
+        "urls":[
+          {
+            "start":0,
+            "end":23,
+            "url":"https://t.co/qmCwswFZg7",
+            "expanded_url":"https://ostium.com",
+            "display_url":"ostium.com"
+          }
+        ]
+      }
+    },
+    "created_at":"2022-05-04T01:58:21.000Z"
+  }
+}

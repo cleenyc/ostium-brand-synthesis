@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# OS/editor
+.DS_Store
+.idea/
+.vscode/
+
+# Local-only scratch
+*.tmp
+*.log
+
+# Keep generated example outputs intentionally tracked when committed.
