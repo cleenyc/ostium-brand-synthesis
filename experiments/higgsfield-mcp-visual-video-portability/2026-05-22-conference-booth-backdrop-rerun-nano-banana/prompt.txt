@@ -1,0 +1,21 @@
+Asset type: Ostium conference booth backdrop, 16:9 wide landscape.
+
+Purpose: Rerun the first booth-backdrop test using the updated two-step production workflow. Generate ONLY the physical booth/backdrop composition layer and environmental/product atmosphere. Leave a large clean left-center safe area for deterministic headline overlay later. Do not render the final headline, paragraph copy, exact logo, exact figures, or readable claims in the generated image.
+
+Brand source distilled from Ostium brand.md:
+- Ostium is a serious, liquid, precise, trader-native onchain gateway to global markets: stocks, ETFs, commodities, indices, forex, and crypto.
+- Visual language: dark premium institutional trading aesthetic; ink black/charcoal panels; warm Ostium orange #FF5A19 as identity/action/heat layer; copper/burnt orange gradients; crisp product/trading terminal surfaces; global market/data context.
+- Color semantics: green only for long/up/profit/success traces; red/pink only for short/down/loss/risk traces. Orange is brand/action/atmosphere, not P&L.
+- Booth scale: one dominant clean read from a distance, large open safe area, precise rectangular modules, cinematic but credible product/data atmosphere.
+
+Scene:
+A premium trade-show conference booth backdrop wall for an institutional onchain trading venue. Wide black/charcoal wall with matte and slightly reflective materials. Left-center third is intentionally clean dark negative space reserved for later headline typography. Right and lower-right areas contain tasteful oversized trading-terminal UI panels, chart grids, global market routing lines, commodity/equity/forex/crypto market category motifs, and abstract gateway/portal light in warm Ostium orange. Subtle booth lighting, floor reflection, side wall depth, and large-format signage feel. Use tiny non-readable chart/table marks only; avoid readable words or fake brand/partner labels.
+
+Style:
+High-end institutional, product-credible, precise, restrained, trader-native, global markets infrastructure, premium dark booth design. Looks like a serious Ostium event backdrop, not generic crypto conference neon. Orange glow should feel like brand heat and market routing.
+
+Must avoid:
+Readable text, misspelled text, fake logos, fake partner/exchange logos, fake claims, fake metrics, token/coin piles, cyberpunk neon city, blue/purple SaaS gradients, mascot imagery, rocket/moon memes, generic blockchain tunnel, cluttered dashboards, orange P&L numbers, investment advice.
+
+Output requirement:
+A polished booth-backdrop composition layer with a deliberate safe area for exact headline/logo/data overlay in a separate deterministic pass.

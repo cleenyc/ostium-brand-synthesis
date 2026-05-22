@@ -1,16 +1,24 @@
-# Future Integrations
+# Future integrations
 
-This directory sketches future work for proving that `brand.md` can travel beyond deterministic SVG templates into richer visual and video generation workflows.
+This directory captures the next layer of the brand-synthesis system: proving that `brand.md` can travel beyond deterministic SVG templates into richer visual and video generation workflows.
 
-These documents are intentionally rough specs. They define likely scope, inputs, outputs, evaluation criteria, and open questions, but they are not implemented in this v1 repo.
+The Higgsfield MCP spec now functions as a local v1 operating track. Static-image passes have produced review packets, comparison artifacts, and a repeatable two-step composition/overlay workflow. Additional specs define the next evaluator and video-expansion tracks.
 
 ## Specs
 
 1. [`higgsfield-mcp-visual-video-portability.md`](higgsfield-mcp-visual-video-portability.md)
-   - Future integration for using `brand.md` as the control layer for visual and video asset generation, including a potential Higgsfield MCP workflow.
-2. [`richer-evaluator-blind-taste-test.md`](richer-evaluator-blind-taste-test.md)
+   - Local v1 operating track for using `brand.md` as the control layer for Higgsfield-backed visual and video asset generation.
+2. [`higgsfield-iterative-self-loop-operating-procedure.md`](higgsfield-iterative-self-loop-operating-procedure.md)
+   - Agent loop for generating, reviewing, comparing, and improving Higgsfield candidates.
+3. [`higgsfield-seedance-virality-video-loop-operating-procedure.md`](higgsfield-seedance-virality-video-loop-operating-procedure.md)
+   - Seedance 2.0 video-generation workflow with Higgsfield Virality Predictor feedback.
+4. [`templates/higgsfield-prompt-packet.md`](templates/higgsfield-prompt-packet.md)
+   - Prompt packet template for Higgsfield image/video runs.
+5. [`templates/higgsfield-review-packet.md`](templates/higgsfield-review-packet.md)
+   - Review packet template for scoring candidates and deciding the next iteration.
+6. [`richer-evaluator-blind-taste-test.md`](richer-evaluator-blind-taste-test.md)
    - Future evaluator for comparing generated assets against real official Ostium assets through blind identification and rubric scoring.
 
 ## Shared principle
 
-The next phase should avoid proving only that a renderer or template was hand-tuned. The stronger claim is that a source-backed `brand.md` can guide new asset types, modalities, and generation tools while preserving brand fidelity, claim discipline, and source traceability.
+The next phase builds the stronger claim: a source-backed `brand.md` can guide new asset types, modalities, and generation tools while preserving brand fidelity, claim discipline, and source traceability.

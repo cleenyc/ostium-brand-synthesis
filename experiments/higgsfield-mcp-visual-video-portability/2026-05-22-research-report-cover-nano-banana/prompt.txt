@@ -1,0 +1,21 @@
+Asset type: Ostium institutional research report cover / website hero background, 16:9 landscape.
+
+Purpose: Generate ONLY the atmospheric/product composition layer for a two-step production workflow. Leave safe negative space for deterministic typography overlay later. Do not render readable headline text, paragraph text, logo, or exact numbers in the image.
+
+Brand source distilled from Ostium brand.md:
+- Ostium is a serious, liquid, precise, trader-native onchain gateway to global markets: stocks, ETFs, commodities, indices, forex, and crypto.
+- Visual language: ink black and charcoal foundation, premium institutional feel, warm Ostium orange #FF5A19 as identity/action/heat layer, subtle copper/burnt gradients, crisp trading-terminal surfaces, global market/data context.
+- Color semantics: green only for long/up/profit/success traces; red/pink only for short/down/loss/risk traces. Orange is brand/action/atmosphere, not P&L.
+- Composition: proof/product hierarchy; concrete market/product context before decoration; credible UI modules and chart/data grids, not generic fintech abstraction.
+
+Scene:
+A premium dark editorial cover composition for a report about global markets moving onchain. Left third: clean dark negative space with subtle charcoal/copper gradient reserved for exact title overlay later. Right two-thirds: layered but tasteful institutional trading environment: a floating near-black product UI panel with chart grid, order-book/table silhouettes, tiny non-readable tick marks, market modules for commodities/equities/forex/crypto represented abstractly but credibly; faint global macro map/rate-calendar texture in the background; subtle orange gateway/routing glow connecting market panels. Add a restrained small blank signature area near bottom-left, but do not draw the Ostium wordmark.
+
+Style:
+High-end institutional crypto/perps brand, precise rectangular modules, tabular-numeric feeling without legible text, cinematic dark lighting, realistic product-screen glow, subtle grain, sharp hierarchy, uncluttered. Feels like Ostium rather than generic DeFi.
+
+Must avoid:
+Readable text, fake logos, fake partner/exchange logos, fake exact metrics, fake claims, token/coin piles, neon cyberpunk city, blue/purple SaaS gradients, mascot imagery, rocket/moon memes, generic abstract blockchain tunnel, cluttered dashboards, orange P&L numbers, investment advice.
+
+Output requirement:
+A polished composition/background layer with deliberate safe area for exact headline/logo/data overlay in the next deterministic pass.

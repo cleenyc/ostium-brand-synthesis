@@ -1,0 +1,14 @@
+Create a polished 16:9 conference booth backdrop concept for Ostium, an onchain gateway to global markets.
+
+Brand rules from the source-backed Ostium brand.md:
+- Dark premium institutional trading aesthetic: ink black and charcoal panels, off-white text, precise grid modules.
+- Ostium orange (#FF5A19 direction) is the identity/action/heat layer: burnt-orange glow, atmospheric heat, copper gradient, not P&L color.
+- Green/red are reserved only for tiny market semantics: long/up/profit and short/down/risk.
+- The composition should lead with one dominant read at booth distance: headline “GLOBAL MARKETS. ONCHAIN.”
+- Secondary line: “Trade stocks, commodities, forex, indices, crypto.”
+- Use market-specific context: subtle chart grids, commodity/forex/equity data panels, trading terminal motifs, global market screens, not abstract decoration.
+- Logo behavior: restrained small white Ostium wordmark/signature, not the hero.
+- Layout: booth-scale wide negative space, exact rectangular data panels, left-aligned labels, tabular numeric feel, premium institutional/product credibility.
+- Mood: serious, liquid, precise, trader-native, global, confident, infrastructure-grade.
+
+Avoid: generic DeFi neon, cyberpunk city grids, token/coin piles, moon/rocket memes, blue/purple SaaS gradients, mascot imagery, fake partner logos, fake exchange endorsements, unsupported performance/profit claims, cluttered illegible dashboards, orange as P&L color.

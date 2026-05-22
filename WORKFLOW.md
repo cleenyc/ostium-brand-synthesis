@@ -106,3 +106,29 @@ It should include:
 The SVG generator in this repo is deliberately small. It proves that once a `brand.md` exists, downstream tools can consume it and produce constrained output.
 
 The interesting artifact is not the renderer. The interesting artifact is the evidence-backed spec that keeps the renderer from making things up.
+
+## Visual/video portability workflow
+
+For richer image/video tools such as Higgsfield MCP, `brand.md` should act as the directional control layer, not as a promise that a single generative pass will handle everything production needs.
+
+The working rule:
+
+> Higgsfield-style generation can use `brand.md` directionally, but production-grade assets should use a two-step flow: generate the atmospheric/product composition first, then overlay exact typography, logo, and data with deterministic tooling or a text-accurate model/pass.
+
+Use this split whenever exact text, logo geometry, data values, product claims, or compliance-sensitive copy matter:
+
+1. **Composition pass** — generate the market/product atmosphere, visual framing, safe areas, lighting, UI/product mood, and motion direction.
+2. **Exact overlay pass** — add or correct headlines, microcopy, logo placement, chart labels, figures, UI numbers, and sourced claims with deterministic tooling or a model chosen for text accuracy.
+3. **Iterative self-loop** — compare candidates and prior passes, classify failures, revise the smallest useful variable, and rerun within a bounded iteration budget before selecting a winner.
+4. **Review packet** — store prompt, output, model metadata, rubric scores, failures, comparison notes, and spec improvement suggestions under `experiments/`.
+5. **Spec feedback** — patch `brand.md` only when the failure reveals missing portable brand guidance; do not hide failures with one-off prompt tricks.
+
+The self-loop procedure is specified locally in `docs/future-integrations/higgsfield-iterative-self-loop-operating-procedure.md`. The operating pattern is: first generation → visual/rubric review → failure diagnosis → targeted workflow/prompt adjustment → rerun → side-by-side comparison → stop or repeat within budget.
+
+For video generation, use the dedicated local procedure in `docs/future-integrations/higgsfield-seedance-virality-video-loop-operating-procedure.md`: Seedance 2.0 generation → manual brand/video review → Higgsfield Virality Predictor → combined diagnosis → targeted prompt/storyboard revision → bounded rerun. Virality feedback is advisory and must never override source truth, claim discipline, or brand fit.
+
+Video subtypes are optional planning/review aids, not a hard gate: product/UI motion, market-event motion, conference/brand hero motion, founder/operator narrative, or hybrid narrative + product/UI. In this v1 workflow, a “CEO video” example means testing a founder/operator-style script, hook, scope, and concept before a shoot. Actual-person likeness/voice work belongs to a separate approved-reference production track.
+
+For Higgsfield image-generation tests, default to `nano_banana_pro`. Use other models only when the experiment calls for a specific tradeoff.
+
+Internal testing policy: keep Higgsfield experiment workflow changes and outputs local/private until Chris explicitly approves updating the public GitHub repo.

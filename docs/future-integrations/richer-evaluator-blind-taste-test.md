@@ -216,10 +216,10 @@ The evaluator should not decide public readiness alone. It should produce a revi
 5. Save `findings.md` and `evaluator-results.json`.
 6. Patch `brand.md` only if the failure points are true spec gaps.
 
-## Non-goals for first evaluator
+## Evaluator positioning
 
-- Do not claim objective brand truth from a single evaluator run.
-- Do not optimize for fooling the evaluator at the expense of claim discipline.
-- Do not treat compression/render artifacts as brand failures.
-- Do not use third-party assets as brand evidence unless explicitly allowed.
-- Do not present generated assets as official Ostium communications.
+- Use evaluator runs as directional creative evidence that strengthens the brand-system case over time.
+- Optimize for source-backed recognizability, claim discipline, and credible creative transfer — not evaluator gaming.
+- Separate compression/render artifacts from true brand-system gaps.
+- Use third-party assets only when explicitly allowed and clearly sourced.
+- Present generated assets as brand-system prototypes and creative workflow evidence unless/until Ostium approves them as official communications.
